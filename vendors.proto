@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./vendors";
+
+enum Vendors {
+  UNSPECIFIED = 0;
+  VK = 1;
+  TELEGRAM = 2;
+  DISCORD = 3;
+  FACEBOOK = 4;
+}
